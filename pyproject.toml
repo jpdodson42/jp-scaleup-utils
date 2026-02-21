@@ -20,7 +20,7 @@ omit = [
 
 
 [tool.poetry]
-name = "project-name"
+name = "jp-scaleup-utils"
 version = "0.1.0"
 description = "A template Poetry project structure."
 
@@ -35,9 +35,9 @@ include = []
 license = "MIT"
 readme = "README.md"
 
-homepage = "https://pypi.org/project/project-name/"
-repository = "https://github.com/Diapolo10/project-name"
-documentation = "https://github.com/Diapolo10/project-name/tree/main/docs"
+homepage = "https://pypi.org/project/jp-scaleup-utils/"
+repository = "https://github.com/jpdodson42/jp-scaleup-utils"
+documentation = "https://github.com/jpdodson42/jp-scaleup-utils/tree/main/docs"
 
 keywords = [
     "python3",
@@ -58,8 +58,6 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.10.0"
-python-dotenv = "^1.2.1"
-tomli = { version = "^2.4.0", python = "<3.11" }
 
 
 [tool.poetry.group.dev.dependencies]
@@ -86,8 +84,8 @@ tox-gh-actions = "^3.5.0"
 
 
 [tool.poetry.urls]
-"Tracker" = "https://github.com/Diapolo10/project-name/issues"
-"Changelog" = "https://github.com/Diapolo10/project-name/blob/main/CHANGELOG.md"
+"Tracker" = "https://github.com/jpdodson42/jp-scaleup-utils/issues"
+"Changelog" = "https://github.com/jpdodson42/jp-scaleup-utils/blob/main/CHANGELOG.md"
 
 
 [tool.pytest.ini_options]
