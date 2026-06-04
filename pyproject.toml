@@ -57,7 +57,14 @@ classifiers = [
 
 
 [tool.poetry.dependencies]
-python = "^3.10.0"
+python = ">=3.11,<3.13"
+pandas = ">=2.0"
+boulder-opal-scale-up-sdk = { path = "../boulder-opal-scale-up/packages/boulder-opal-scale-up-sdk", develop = true }
+boulder-opal-scale-up-plots = { path = "../boulder-opal-scale-up/packages/boulder-opal-scale-up-plots", develop = true }
+scale-up-core = { path = "../boulder-opal-scale-up/packages/scale-up-core", develop = true }
+scale-up-dev-tools = { path = "../boulder-opal-scale-up/packages/scale-up-dev-tools", develop = true }
+scale-up-spin = { path = "../boulder-opal-scale-up/packages/scale-up-spin", develop = true }
+jupyter = "^1.1.1"
 
 
 [tool.poetry.group.dev.dependencies]
